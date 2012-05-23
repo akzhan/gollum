@@ -53,7 +53,7 @@ opts = OptionParser.new do |opts|
     wiki_options[:ref] = ref
   end
 
-  opts.on("--no-mathjax", "Disables mathjax.") do |port|
+  opts.on("--no-mathjax", "Disables mathjax.") do
     options['mathjax'] = false
   end
 end
