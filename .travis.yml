@@ -3,4 +3,4 @@ rvm:
 notifications:
   disabled: true
 before_install:
- - gem install ffi -v 1.0.7
+ - gem install ffi
